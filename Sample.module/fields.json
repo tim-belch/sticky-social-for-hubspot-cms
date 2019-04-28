@@ -1,0 +1,215 @@
+[ {
+  "id" : "8b8b6b98-5577-14c5-edd7-04ee6a735de3",
+  "name" : "social_trigger_icon",
+  "type" : "icon",
+  "label" : "Social Trigger Icon",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "share-alt",
+    "unicode" : "f1e0",
+    "type" : "SOLID"
+  }
+}, {
+  "id" : "0fb3f094-3d19-5c1d-d480-cd22c45b0957",
+  "name" : "social_trigger_background_color",
+  "type" : "color",
+  "label" : "Social Trigger Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#eb4924",
+    "opacity" : 100
+  }
+}, {
+  "id" : "22c00733-ddbe-c7d1-6849-d405905af90b",
+  "name" : "social_trigger_icon_color",
+  "type" : "color",
+  "label" : "Social trigger icon color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "87ac3e05-447f-15a4-fa0d-d8bdb13b1900",
+  "name" : "social_icon_1",
+  "type" : "icon",
+  "label" : "Social Icon 1",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "facebook-f",
+    "unicode" : "f39e",
+    "type" : "REGULAR"
+  }
+}, {
+  "id" : "e526ead7-d35f-dc2d-22f3-75198f0fa6cf",
+  "name" : "icon_1_link",
+  "type" : "text",
+  "label" : "Icon 1 link",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "default" : "https://facebook.com/"
+}, {
+  "id" : "5199da3a-550d-8f21-3a94-cd6c3702382d",
+  "name" : "icon_1_color",
+  "type" : "color",
+  "label" : "Icon 1 color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "ca005441-b573-1e41-41d6-53efd65d4dd4",
+  "name" : "icon_1_background_color",
+  "type" : "color",
+  "label" : "Icon 1 Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#3b5999",
+    "opacity" : 100
+  }
+}, {
+  "id" : "82340b54-89ee-05d4-28c0-5061ed6fa448",
+  "name" : "social_icon_2",
+  "type" : "icon",
+  "label" : "Social Icon 2",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "twitter",
+    "unicode" : "f099",
+    "type" : "REGULAR"
+  }
+}, {
+  "id" : "bb654e52-a582-09e9-b3a9-c7e476f81a33",
+  "name" : "icon_2_link",
+  "type" : "text",
+  "label" : "Icon 2 Link",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "default" : "https://twitter.com"
+}, {
+  "id" : "ac48c666-b82c-ded6-907b-084a830039f1",
+  "name" : "icon_2_color",
+  "type" : "color",
+  "label" : "Icon 2 Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "a3bee62a-56e0-9f8d-2503-2664f06d346f",
+  "name" : "icon_2_background_color",
+  "type" : "color",
+  "label" : "Icon 2 Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#55acee",
+    "opacity" : 100
+  }
+}, {
+  "id" : "b7dd8e56-fae8-70d5-49ed-2f0263ad5398",
+  "name" : "social_icon_3",
+  "type" : "icon",
+  "label" : "Social Icon 3",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "name" : "instagram",
+    "unicode" : "f16d",
+    "type" : "REGULAR"
+  }
+}, {
+  "id" : "a1c7914f-9fc9-bc35-ecf5-ed330d52fabb",
+  "name" : "icon_3_link",
+  "type" : "text",
+  "label" : "Icon 3 link",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "default" : "https://instagram.com"
+}, {
+  "id" : "6ed0a53d-fe7c-e2e9-0332-9147e7d704a4",
+  "name" : "icon_3_color",
+  "type" : "color",
+  "label" : "Icon 3 Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "1a85867e-b1c6-10a8-c0f4-350218677b18",
+  "name" : "icon_3_background_color",
+  "type" : "color",
+  "label" : "Icon 3 Background Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#e4405f",
+    "opacity" : 100
+  }
+} ]

@@ -1,0 +1,93 @@
+.belch-sticky-social-super-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 214748363;
+}
+.belch-sticky-social-super-container .bsssc-inner {
+  position: relative;
+}
+.belch-sticky-social-super-container .bsssc-trigger {
+  position: relative;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  padding: 20px;
+  background: red;
+  border-radius: 105px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.22);
+  fill: white;
+  cursor: pointer;
+  border: 1px solid white;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  box-sizing: content-box !important;
+}
+.belch-sticky-social-super-container .bsssc-trigger:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.28), 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.28), 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.belch-sticky-social-super-container .bsssc-social {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 0;
+  height: 0;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-icon a {
+  color: inherit;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-icon {
+  width: 20px;
+  height: 20px;
+  padding: 13px;
+  background: red;
+  border-radius: 105px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26), 0 2px 10px 0 rgba(0,0,0,0.22);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26), 0 2px 10px 0 rgba(0,0,0,0.22);
+  fill: white;
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid white;
+  box-sizing: content-box !important;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-a {
+  background: transparent !important;
+  color: transparent !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-icon-1 {
+  top: -133px;
+  left: -52px;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-icon-2 {
+  top: -111px;
+  left: -118px;
+}
+.belch-sticky-social-super-container .bsssc-social .bsssc-icon-3 {
+  top: -46px;
+  left: -135px;
+}
+.belch-sticky-social-super-container .bsssc-social-pseudo-trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 0;
+}
+.belch-sticky-social-super-container .bsssc-social-pseudo-trigger.open {
+  top: -160px;
+  left: -160px;
+  width: 180px;
+  height: 180px;
+}

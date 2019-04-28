@@ -1,0 +1,73 @@
+{{ require_js("https://cdn.jsdelivr.net/npm/enhanced-bind-polyfill@0.0.2/index.min.js", "head") }}
+{{ require_js("https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js", "head") }}
+{{ require_js("https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js", "head") }}
+{% require_css %}
+<style>
+  .belch-sticky-social-super-container .bsssc-trigger {
+    background: {{ module.social_trigger_background_color.color }};
+    fill: {{ module.social_trigger_icon_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon a {
+    fill: {{ module.icon_1_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon.bsssc-icon-1 {
+    background: {{ module.icon_1_background_color.color }};
+    fill: {{ module.icon_1_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon.bsssc-icon-2 a {
+    fill: {{ module.icon_2_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon.bsssc-icon-2 {
+    background: {{ module.icon_2_background_color.color }};
+    fill: {{ module.icon_2_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon.bsssc-icon-3 a  {
+    fill: {{ module.icon_3_color.color }};
+  }
+  .belch-sticky-social-super-container .bsssc-social .bsssc-icon.bsssc-icon-3  {
+    background: {{ module.icon_3_background_color.color }};
+    fill: {{ module.icon_3_color.color }};
+  }
+</style>
+{% end_require_css %}
+<div class="belch-sticky-social-super-container">
+  <div class="bsssc-inner">
+    <div class="bsssc-trigger">
+      {% icon
+        name="{{ module.social_trigger_icon.name }}"
+        style="{{ module.social_trigger_icon.type }}"
+        unicode="{{ module.social_trigger_icon.unicode }}"
+      %}
+    </div>
+    <div class="bsssc-social">
+      <div class="bsssc-social-pseudo-trigger"></div>
+      <div class="bsssc-social-inner">
+        <div class="bsssc-icon bsssc-icon-1">
+          <a href="{{ module.icon_1_link }}" target="_blank" class="bsssc-a">&nbsp;</a>
+          {% icon
+              name="{{ module.social_icon_1.name }}"
+              style="{{ module.social_icon_1.type }}"
+              unicode="{{ module.social_icon_1.unicode }}"
+            %}
+
+        </div>
+        <div class="bsssc-icon bsssc-icon-2">
+          <a href="{{ module.icon_2_link }}" target="_blank" class="bsssc-a">&nbsp;</a>
+          {% icon
+              name="{{ module.social_icon_2.name }}"
+              style="{{ module.social_icon_2.type }}"
+              unicode="{{ module.social_icon_2.unicode }}"
+            %}
+        </div>
+        <div class="bsssc-icon bsssc-icon-3">
+          <a href="{{ module.icon_3_link }}" target="_blank" class="bsssc-a">&nbsp;</a>
+          {% icon
+              name="{{ module.social_icon_3.name }}"
+              style="{{ module.social_icon_3.type }}"
+              unicode="{{ module.social_icon_3.unicode }}"
+            %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
